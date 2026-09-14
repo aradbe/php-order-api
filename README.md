@@ -15,12 +15,17 @@ exceptions, and database transactions.
 - Create the order and reduce stock in one transaction
 - Retrieve an order with its product information
 - Return JSON responses and appropriate HTTP status codes
+- Use a small responsive browser interface to view products and place orders
 
 ## Endpoints
 
 ### List products
 
 `GET /products.php`
+
+### Browser interface
+
+`GET /`
 
 ### Create an order
 
